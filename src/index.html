@@ -18,13 +18,13 @@
 
 <body class="overflow-x-hidden">
   <header class="hero relative">
-    <nav class="absolute text-white mt-8 mx-8 lg:mx-20  w-full">
+    <nav class="absolute text-white mt-8 mx-8 lg:mx-20 z-20 w-full">
       <div class="flex lg:flex-row justify-between items-center">
         <div class="brand-logo cursor-pointer z-50">
           <img src="./images/logo.svg" alt="brand-logo">
         </div>
 
-        <div class="lg:hidden mr-16 scale-95 z-10">
+        <div class="lg:hidden mr-16 scale-95 z-20">
           <img class="hamburger cursor-pointer z-40" src="./images/icon-hamburger.svg" alt="icon-hamburger">
         </div>
 
@@ -56,8 +56,8 @@
       <div class="mb-10">
         <img class="w-full h-screen object-cover lg:hidden brightness-75" src="./images/mobile/image-hero.jpg"
           alt="image-hero-mobile">
-        <div class="text-4xl lg:text-8xl uppercase absolute top-56 left-8 py-8 px-6 mr-24 text-white font-Josefin
-        border-solid border-2 border-white md:text-7xl md:px-12 lg:left-20 z-50">
+        <div class="text-4xl lg:text-8xl uppercase absolute top-56 left-8 py-8 px-3 mr-24 text-white font-Josefin
+        border-solid border-2 border-white md:text-7xl md:px-12 lg:left-20 z-10">
           Immersive <br class="hidden md:block"> experiences <br class="hidden md:block"> that <br class="md:hidden">
           deliver
         </div>
@@ -98,7 +98,7 @@
           <div class="lg:flex lg:justify-between lg:w-[68.5em] z-50">
             <div class="text-4xl uppercase text-center font-Josefin mb-14">Our creations</div>
 
-            <div class="sm:hidden md:hidden lg:block">
+            <div class="hidden lg:block">
               <button
                 class="font-Alata uppercase text-xl border-solid border-2 border-black tracking-widest px-10 py-2 hover:bg-black hover:text-white transition-all duration-200 ease-in-out">See
                 all</button>
@@ -110,15 +110,14 @@
           <div
             class="creations-showcase flex justify-center items-center flex-col gap-6 px-6 lg:grid lg:grid-cols-4 lg:justify-items-center">
             <div class="deep-earth relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block" src="./images/desktop/image-deep-earth.jpg"
-                alt="image-deep-earth-desktop">
+              <img class="hidden lg:block" src="./images/desktop/image-deep-earth.jpg" alt="image-deep-earth-desktop">
               <img class="lg:hidden" src="./images/mobile/image-deep-earth.jpg" alt="image-deep-earth-mobile">
               <div class="uppercase font-Josefin absolute inset-0 top-10 lg:top-72 left-8 text-3xl text-white">Deep <br>
                 earth</div>
             </div>
 
             <div class="night-arcade relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block brightness-75" src="./images/desktop/image-night-arcade.jpg"
+              <img class="hidden lg:block brightness-75" src="./images/desktop/image-night-arcade.jpg"
                 alt="image-night-arcade-desktop">
               <img class="lg:hidden brightness-75" src="./images/mobile/image-night-arcade.jpg"
                 alt="image-night-arcade-mobile">
@@ -129,7 +128,7 @@
             </div>
 
             <div class="soccer-team-vr relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block brightness-75" src="./images/desktop/image-soccer-team.jpg"
+              <img class="hidden lg:block brightness-75" src="./images/desktop/image-soccer-team.jpg"
                 alt="image-soccer-team-desktop">
               <img class="lg:hidden brightness-75" src="./images/mobile/image-soccer-team.jpg"
                 alt="image-soccer-team-mobile">
@@ -139,15 +138,14 @@
             </div>
 
             <div class="the-grid relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block brightness-75" src="./images/desktop/image-grid.jpg"
-                alt="the-grid-desktop">
+              <img class="hidden lg:block brightness-75" src="./images/desktop/image-grid.jpg" alt="the-grid-desktop">
               <img class="lg:hidden brightness-75" src="./images/mobile/image-grid.jpg" alt="image-grid-mobile">
               <div class="uppercase font-Josefin absolute inset-0 top-10 lg:top-72 left-8 text-3xl text-white">The <br>
                 grid</div>
             </div>
 
             <div class="above-vr relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block brightness-75" src="./images/desktop/image-from-above.jpg"
+              <img class="hidden lg:block brightness-75" src="./images/desktop/image-from-above.jpg"
                 alt="image-from-above-desktop">
               <img class="lg:hidden brightness-75" src="./images/mobile/image-from-above.jpg"
                 alt="image-from-above-mobile">
@@ -157,7 +155,7 @@
             </div>
 
             <div class="pocket-borealis relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block" src="./images/desktop/image-pocket-borealis.jpg"
+              <img class="hidden lg:block" src="./images/desktop/image-pocket-borealis.jpg"
                 alt="pocket-borealis-desktop">
               <img class="lg:hidden" src="./images/mobile/image-pocket-borealis.jpg" alt="image-pocket-borealis-mobile">
               <div class="uppercase font-Josefin absolute inset-0 top-10 lg:top-72 left-8 text-3xl text-white">Pocket
@@ -167,7 +165,7 @@
             </div>
 
             <div class="the-curiosity relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block brightness-75" src="./images/desktop/image-curiosity.jpg"
+              <img class="hidden lg:block brightness-75" src="./images/desktop/image-curiosity.jpg"
                 alt="image-curiosity-desktop">
               <img class="lg:hidden brightness-75" src="./images/mobile/image-curiosity.jpg"
                 alt="image-curiosity-mobile">
@@ -176,7 +174,7 @@
             </div>
 
             <div class="fisheye relative cursor-pointer">
-              <img class="sm:hidden md:hidden lg:block brightness-75" src="./images/desktop/image-fisheye.jpg"
+              <img class="hidden lg:block brightness-75" src="./images/desktop/image-fisheye.jpg"
                 alt="image-fisheye-desktop">
               <img class="lg:hidden brightness-75" src="./images/mobile/image-fisheye.jpg" alt="image-fisheye-mobile" />
               <div class="uppercase font-Josefin absolute inset-0 top-10 lg:top-72 left-8 text-3xl text-white">Make it
